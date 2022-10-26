@@ -7,7 +7,6 @@ function Random(props) {
     return (
         <div id="random">
             <p>Random value between {props.min} and {props.max} = {random1}</p>
-            <p>Random value between {props.min} and {props.max} = {random1 }</p>
         </div>
         
     )

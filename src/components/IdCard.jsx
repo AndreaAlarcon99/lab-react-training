@@ -1,5 +1,6 @@
 function IdCard({user}) {
-    const {lastName, firstName, gender, height, birth, picture} = user
+    const { lastName, firstName, gender, height, birth, picture } = user
+    
     return (
         <div id="user">
             <img src={picture} alt="" />

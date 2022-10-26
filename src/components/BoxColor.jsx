@@ -13,7 +13,7 @@ function BoxColor(props) {
     }
     return (
         <div style={boxStyle}>
-            {r}{g}{b}
+            <p>rgb:({r},{g},{b})</p>
         </div>
     )
 }
